@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC89F1461E3DEA5B0026A456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC89F1451E3DEA5B0026A456 /* AppDelegate.swift */; };
+		BC89F1481E3DEA5B0026A456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC89F1471E3DEA5B0026A456 /* ViewController.swift */; };
+		BC89F14B1E3DEA5B0026A456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC89F1491E3DEA5B0026A456 /* Main.storyboard */; };
+		BC89F14D1E3DEA5B0026A456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC89F14C1E3DEA5B0026A456 /* Assets.xcassets */; };
+		BC89F1501E3DEA5B0026A456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC89F14E1E3DEA5B0026A456 /* LaunchScreen.storyboard */; };
+		BC89F15B1E3DEA5C0026A456 /* NeuraSDKAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC89F15A1E3DEA5C0026A456 /* NeuraSDKAppTests.swift */; };
+		BC89F1661E3DEA5C0026A456 /* NeuraSDKAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC89F1651E3DEA5C0026A456 /* NeuraSDKAppUITests.swift */; };
+		BC89F1751E3DEB680026A456 /* NeuraSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC89F1731E3DEAE20026A456 /* NeuraSDK.framework */; };
+		BC89F1761E3DEB690026A456 /* NeuraSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC89F1731E3DEAE20026A456 /* NeuraSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC89F1571E3DEA5C0026A456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC89F13A1E3DEA5B0026A456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC89F1411E3DEA5B0026A456;
+			remoteInfo = NeuraSDKApp;
+		};
+		BC89F1621E3DEA5C0026A456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC89F13A1E3DEA5B0026A456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC89F1411E3DEA5B0026A456;
+			remoteInfo = NeuraSDKApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC89F1771E3DEB690026A456 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC89F1761E3DEB690026A456 /* NeuraSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC89F1421E3DEA5B0026A456 /* NeuraSDKApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuraSDKApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC89F1451E3DEA5B0026A456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC89F1471E3DEA5B0026A456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC89F14A1E3DEA5B0026A456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC89F14C1E3DEA5B0026A456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC89F14F1E3DEA5B0026A456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC89F1511E3DEA5B0026A456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC89F1561E3DEA5C0026A456 /* NeuraSDKAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraSDKAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC89F15A1E3DEA5C0026A456 /* NeuraSDKAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraSDKAppTests.swift; sourceTree = "<group>"; };
+		BC89F15C1E3DEA5C0026A456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC89F1611E3DEA5C0026A456 /* NeuraSDKAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuraSDKAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC89F1651E3DEA5C0026A456 /* NeuraSDKAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuraSDKAppUITests.swift; sourceTree = "<group>"; };
+		BC89F1671E3DEA5C0026A456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC89F1731E3DEAE20026A456 /* NeuraSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NeuraSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC89F13F1E3DEA5B0026A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC89F1751E3DEB680026A456 /* NeuraSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC89F1531E3DEA5C0026A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC89F15E1E3DEA5C0026A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC89F1391E3DEA5B0026A456 = {
+			isa = PBXGroup;
+			children = (
+				BC89F1441E3DEA5B0026A456 /* NeuraSDKApp */,
+				BC89F1591E3DEA5C0026A456 /* NeuraSDKAppTests */,
+				BC89F1641E3DEA5C0026A456 /* NeuraSDKAppUITests */,
+				BC89F1431E3DEA5B0026A456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC89F1431E3DEA5B0026A456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC89F1421E3DEA5B0026A456 /* NeuraSDKApp.app */,
+				BC89F1561E3DEA5C0026A456 /* NeuraSDKAppTests.xctest */,
+				BC89F1611E3DEA5C0026A456 /* NeuraSDKAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC89F1441E3DEA5B0026A456 /* NeuraSDKApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC89F1731E3DEAE20026A456 /* NeuraSDK.framework */,
+				BC89F1451E3DEA5B0026A456 /* AppDelegate.swift */,
+				BC89F1471E3DEA5B0026A456 /* ViewController.swift */,
+				BC89F1491E3DEA5B0026A456 /* Main.storyboard */,
+				BC89F14C1E3DEA5B0026A456 /* Assets.xcassets */,
+				BC89F14E1E3DEA5B0026A456 /* LaunchScreen.storyboard */,
+				BC89F1511E3DEA5B0026A456 /* Info.plist */,
+			);
+			path = NeuraSDKApp;
+			sourceTree = "<group>";
+		};
+		BC89F1591E3DEA5C0026A456 /* NeuraSDKAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC89F15A1E3DEA5C0026A456 /* NeuraSDKAppTests.swift */,
+				BC89F15C1E3DEA5C0026A456 /* Info.plist */,
+			);
+			path = NeuraSDKAppTests;
+			sourceTree = "<group>";
+		};
+		BC89F1641E3DEA5C0026A456 /* NeuraSDKAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC89F1651E3DEA5C0026A456 /* NeuraSDKAppUITests.swift */,
+				BC89F1671E3DEA5C0026A456 /* Info.plist */,
+			);
+			path = NeuraSDKAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC89F1411E3DEA5B0026A456 /* NeuraSDKApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC89F16A1E3DEA5C0026A456 /* Build configuration list for PBXNativeTarget "NeuraSDKApp" */;
+			buildPhases = (
+				BC89F13E1E3DEA5B0026A456 /* Sources */,
+				BC89F13F1E3DEA5B0026A456 /* Frameworks */,
+				BC89F1401E3DEA5B0026A456 /* Resources */,
+				BC89F1771E3DEB690026A456 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuraSDKApp;
+			productName = NeuraSDKApp;
+			productReference = BC89F1421E3DEA5B0026A456 /* NeuraSDKApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC89F1551E3DEA5C0026A456 /* NeuraSDKAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC89F16D1E3DEA5C0026A456 /* Build configuration list for PBXNativeTarget "NeuraSDKAppTests" */;
+			buildPhases = (
+				BC89F1521E3DEA5C0026A456 /* Sources */,
+				BC89F1531E3DEA5C0026A456 /* Frameworks */,
+				BC89F1541E3DEA5C0026A456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC89F1581E3DEA5C0026A456 /* PBXTargetDependency */,
+			);
+			name = NeuraSDKAppTests;
+			productName = NeuraSDKAppTests;
+			productReference = BC89F1561E3DEA5C0026A456 /* NeuraSDKAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC89F1601E3DEA5C0026A456 /* NeuraSDKAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC89F1701E3DEA5C0026A456 /* Build configuration list for PBXNativeTarget "NeuraSDKAppUITests" */;
+			buildPhases = (
+				BC89F15D1E3DEA5C0026A456 /* Sources */,
+				BC89F15E1E3DEA5C0026A456 /* Frameworks */,
+				BC89F15F1E3DEA5C0026A456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC89F1631E3DEA5C0026A456 /* PBXTargetDependency */,
+			);
+			name = NeuraSDKAppUITests;
+			productName = NeuraSDKAppUITests;
+			productReference = BC89F1611E3DEA5C0026A456 /* NeuraSDKAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC89F13A1E3DEA5B0026A456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JyothiReddy;
+				TargetAttributes = {
+					BC89F1411E3DEA5B0026A456 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					BC89F1551E3DEA5C0026A456 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC89F1411E3DEA5B0026A456;
+					};
+					BC89F1601E3DEA5C0026A456 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC89F1411E3DEA5B0026A456;
+					};
+				};
+			};
+			buildConfigurationList = BC89F13D1E3DEA5B0026A456 /* Build configuration list for PBXProject "NeuraSDKApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC89F1391E3DEA5B0026A456;
+			productRefGroup = BC89F1431E3DEA5B0026A456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC89F1411E3DEA5B0026A456 /* NeuraSDKApp */,
+				BC89F1551E3DEA5C0026A456 /* NeuraSDKAppTests */,
+				BC89F1601E3DEA5C0026A456 /* NeuraSDKAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC89F1401E3DEA5B0026A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC89F1501E3DEA5B0026A456 /* LaunchScreen.storyboard in Resources */,
+				BC89F14D1E3DEA5B0026A456 /* Assets.xcassets in Resources */,
+				BC89F14B1E3DEA5B0026A456 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC89F1541E3DEA5C0026A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC89F15F1E3DEA5C0026A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC89F13E1E3DEA5B0026A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC89F1481E3DEA5B0026A456 /* ViewController.swift in Sources */,
+				BC89F1461E3DEA5B0026A456 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC89F1521E3DEA5C0026A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC89F15B1E3DEA5C0026A456 /* NeuraSDKAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC89F15D1E3DEA5C0026A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC89F1661E3DEA5C0026A456 /* NeuraSDKAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC89F1581E3DEA5C0026A456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC89F1411E3DEA5B0026A456 /* NeuraSDKApp */;
+			targetProxy = BC89F1571E3DEA5C0026A456 /* PBXContainerItemProxy */;
+		};
+		BC89F1631E3DEA5C0026A456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC89F1411E3DEA5B0026A456 /* NeuraSDKApp */;
+			targetProxy = BC89F1621E3DEA5C0026A456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC89F1491E3DEA5B0026A456 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC89F14A1E3DEA5B0026A456 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC89F14E1E3DEA5B0026A456 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC89F14F1E3DEA5B0026A456 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC89F1681E3DEA5C0026A456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC89F1691E3DEA5C0026A456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC89F16B1E3DEA5C0026A456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NeuraSDKApp",
+				);
+				INFOPLIST_FILE = NeuraSDKApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JyothiReddy.NeuraSDKApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC89F16C1E3DEA5C0026A456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NeuraSDKApp",
+				);
+				INFOPLIST_FILE = NeuraSDKApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JyothiReddy.NeuraSDKApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC89F16E1E3DEA5C0026A456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeuraSDKAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JyothiReddy.NeuraSDKAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuraSDKApp.app/NeuraSDKApp";
+			};
+			name = Debug;
+		};
+		BC89F16F1E3DEA5C0026A456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeuraSDKAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JyothiReddy.NeuraSDKAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuraSDKApp.app/NeuraSDKApp";
+			};
+			name = Release;
+		};
+		BC89F1711E3DEA5C0026A456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NeuraSDKAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JyothiReddy.NeuraSDKAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeuraSDKApp;
+			};
+			name = Debug;
+		};
+		BC89F1721E3DEA5C0026A456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NeuraSDKAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JyothiReddy.NeuraSDKAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeuraSDKApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC89F13D1E3DEA5B0026A456 /* Build configuration list for PBXProject "NeuraSDKApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC89F1681E3DEA5C0026A456 /* Debug */,
+				BC89F1691E3DEA5C0026A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC89F16A1E3DEA5C0026A456 /* Build configuration list for PBXNativeTarget "NeuraSDKApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC89F16B1E3DEA5C0026A456 /* Debug */,
+				BC89F16C1E3DEA5C0026A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC89F16D1E3DEA5C0026A456 /* Build configuration list for PBXNativeTarget "NeuraSDKAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC89F16E1E3DEA5C0026A456 /* Debug */,
+				BC89F16F1E3DEA5C0026A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC89F1701E3DEA5C0026A456 /* Build configuration list for PBXNativeTarget "NeuraSDKAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC89F1711E3DEA5C0026A456 /* Debug */,
+				BC89F1721E3DEA5C0026A456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC89F13A1E3DEA5B0026A456 /* Project object */;
+}

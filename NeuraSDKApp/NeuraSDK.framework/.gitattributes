@@ -1,0 +1,5 @@
+*NeuraSDK filter=lfs diff=lfs merge=lfs -text
+NeuraSDK filter=lfs diff=lfs merge=lfs -text
+NeuraSDK
+
+ filter=lfs diff=lfs merge=lfs -text
